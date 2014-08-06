@@ -67,3 +67,8 @@ test:
         # low amounts for fast failures.
         max_retries: 1
         retry_interval: 0
+production:
+      sessions:
+        default:
+          uri: <%= ENV['mongodb://heroku:Ot92ID7YTnWEF1gYq-CZ-tZItjRD8QZXLxpQFbveyezIzD8oaI_2GW0GT3_wOFx5bhz_Pc9l2Wbr7EvB7ATn9w@kahana.mongohq.com:10002/app28206997
+'] %>
